@@ -1,0 +1,18 @@
+HBLOG_SYNTAX_RULES
+
+1. SPECIAL_STUFF
+    1.1 -> SECTION   :: is a main block in the blogpost, a blogpost consists of multiple sections
+    1.2 -> SECTOR    :: is a main block in the SECTION, a SECTION consists of multiple sectors
+    1.3 -> variables :: in the form {{ VAR_NAME }}
+
+2. NORMAL_STUFF
+    1.1 -> every component in the syntax
+        :: consists of dot[.] seperated parts
+           first part is the name of the component involved
+           which is just a function the will return the content
+           of the component, while every other part are props submitted
+           to the component function like this
+           [TEXT.my title.red.6] which maps to [text(value, color, size)]
+    
+    1.2 -< custom components and stuff like that
+        :: NOT_IMPLEMENTED_YET

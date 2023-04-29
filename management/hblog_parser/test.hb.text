@@ -1,0 +1,7 @@
+SECTION
+    TEXT.my first blogpost on {{ GLOBAL.BLOG_NAME }}
+    IMAGE.assets/1/test_image.jpg.testing image.fullwidth
+    PARAGRAPH.HI, so this is my first blogpost right here
+    i just created this blogsystem and i'm eager to use ot to create blogposts
+    it will be a great experience for me
+
